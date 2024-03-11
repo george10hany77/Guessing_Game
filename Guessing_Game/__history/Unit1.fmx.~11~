@@ -1,0 +1,52 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 376
+  ClientWidth = 336
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Text: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 32.000000000000000000
+    Position.Y = 77.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Submit: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 77.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Submit'
+    TextSettings.Trimming = None
+    OnClick = SubmitClick
+  end
+  object Set_Guess: TButton
+    Position.X = 112.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 112.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Set_Guess'
+    TextSettings.Trimming = None
+    OnClick = Set_GuessClick
+  end
+  object Lable: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 52.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Trimming = None
+    Text = 'Enter a number :'
+    TabOrder = 3
+  end
+end
